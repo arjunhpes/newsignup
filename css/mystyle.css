@@ -72,13 +72,28 @@ hr {
     padding: 0; 
 }
 
-h6 { 
-    width:100%; 
-    text-align:center; 
-    border-bottom: 1px solid aqua; 
-    line-height:0.1em; 
-    margin:10px 0 20px; 
-} 
-h6 span { 
-    background:#fff; 
-    padding:0px 10px; }
+.horizontal {
+    line-height: 1.0;
+     text-align: center;
+      }
+.horizontal span {
+        display: inline-block;
+        position: relative;  
+        color: white;
+      }
+.horizontal span:before,
+.horizontal span:after {
+    content: "";
+    position: absolute;
+    border: 1px solid aqua;
+    top: 0;
+    width: 195px;
+}
+.horizontal span:before {
+    right: 100%;
+    margin-right: 8px;
+}
+.horizontal span:after {
+    left: 100%;
+    margin-left: 8px;
+}
