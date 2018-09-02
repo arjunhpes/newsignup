@@ -63,14 +63,7 @@ input::-webkit-input-placeholder {
 .gender {
     color: white;
 }
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid aqua;
-    margin: 1em 0;
-    padding: 0; 
-}
+
 
 .horizontal {
     line-height: 1.0;
